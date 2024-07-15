@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 40px 50px; /* Ajustar para hacer el contenedor más rectangular */
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -1px; /* Ajustar el espaciado entre letras */
+}
+
+.login-form h2 {
+    margin: 10px 0;
+}
+
+.login-form p {
+    margin: 10px 10;
+    font-size: 0.9rem;
+}
+
+.info-link {
+    margin-bottom: 40px; /* Más espacio entre el enlace de información y el campo de email */
+}
+
+.form-group {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.form-group.email-group {
+    margin-bottom: 40px; /* Más espacio entre el email y la contraseña */
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem; /* Asegurar tamaño consistente */
+}
+
+.show-password-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -10px; /* Espacio entre Mostrar contraseña y ¿Olvidaste la contraseña? */
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #357AE8;
+}
+
+.forgot-link {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.forgot-link.large-margin {
+    margin-top: 40px; /* Más espacio entre "¿Olvidaste la contraseña?" y "SIGUIENTE" */
+}
+
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form-footer {
+    margin-top: 20px;
+}
+
+.button-group {
+    margin-top: 50px; /* Más espacio entre "¿Olvidaste la contraseña?" y "SIGUIENTE" */
+}

